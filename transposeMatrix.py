@@ -24,36 +24,23 @@ class Solution(object):
 #         print(matrix2)
 #         return matrix2
 #forma correta
-# 0
-# 0
-# 1
-# 1
-# 1
-# 2
-# 2
-# 2
-# 3
-# 3
-# 1
-# 0
-# 4
-# 4
-# 1
-# 5
-# 5
-# 2
-# 6
-# 6
-# 2
-# 0
-# 7
-# 7
-# 1
-# 8
-# 8
-# 2
-# 9
-# 9
+
+i1
+j0
+result4
+origignal4
+
+
+i2
+j0
+result7
+origignal7
+j1
+result8
+origignal8
+j2
+result9
+origignal9
         result =[[ 0 for i in range(len(matrix)) ] for j in range(len(matrix[0])) ]
         for i in range(len(matrix)):
             for j in range(len(matrix[0])):
